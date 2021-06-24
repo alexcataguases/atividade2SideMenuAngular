@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Encomendas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br><br><br>
+
+  <ion-item>
+    <ion-label>Compra: </ion-label>
+    <ion-input type="number" [(ngModel)]="formulario.valor" placeholder="Valor"></ion-input>
+  </ion-item>
+  
+  <ion-button expand="block" color="danger" (click)="dobrar()">Dobre grátis sua compra!</ion-button>
+
+  <ion-item>
+    <ion-label>Encomenda realizada: </ion-label>
+    <ion-input type="number" placeholder="número" value={{dobro}}></ion-input>
+  </ion-item>
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "atividade2SideMenuAngular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
